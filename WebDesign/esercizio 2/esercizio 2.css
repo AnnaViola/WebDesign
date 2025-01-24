@@ -1,0 +1,21 @@
+h1{font-size: 30px;
+color: green;
+display:flex;
+justify-content: center;}
+
+#rosa{font-size: 16;
+color:rgb(255, 159, 159);
+display: flex;
+justify-content: center;
+padding: 0 20px;
+}
+
+#viola{font-size: 16;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    color: rgb(112, 0, 216);}
+
+    body{border: 1px solid purple;
+    padding:15px;
+    margin:40px}

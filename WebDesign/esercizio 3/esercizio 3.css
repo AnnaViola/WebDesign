@@ -1,0 +1,18 @@
+body{background-color: black;}
+
+img {size: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+
+h1{font-size: 32px;
+color:rgb(252, 223, 62);
+display:flex;
+justify-content: center;}
+
+p{font-size: 15;
+line-height: 1.5;
+display: flex;
+justify-content: center;
+color:rgb(252, 223, 62);}

@@ -1,0 +1,116 @@
+h1{color: rgb(248, 227, 105);
+text-align: center;
+font-family:"Galada", serif;
+font-weight: 400;
+font-style: normal;}
+
+h2{color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:"Galada", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;}
+
+p{text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+font-size: 14px;}
+
+    .main1{background-image: url(img/paper.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 25px;
+        max-width: 100%;
+        overflow: auto;}
+        
+.ArtimgJohn{display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "img1 img2 img3"
+        "img4 img5 img6";
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        max-width: 80%;
+        margin-right: 250px;
+        margin-left: 250px;}
+
+.ArtimgMary{display: flexbox;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            margin-left: 200px;}
+
+.ArtimgArthur{display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin-right: 250px;
+    margin-left: 250px;}
+
+.TennielArt{max-width: 100%;
+            border: 3px solid rgb(0, 0, 0);
+            object-fit: cover;
+            height: 200px;}
+
+.MaryArt{max-width: 60%;
+    border: 3px solid rgb(0, 0, 0);
+    object-fit: cover;
+    height: 200px;}
+
+.ArthurArt{max-width: 60%;
+    border: 3px solid rgb(0, 0, 0);
+    object-fit: cover;
+    height: 200px;}
+
+
+
+body {background-image: url(img/nightsky.jpg);
+      background-size: cover;}
+
+.imghome{display: flex;
+justify-content: space-around;
+align-items:stretch;
+flex-wrap: nowrap;}
+
+
+h3, h4, h5 {color: rgb(248, 227, 105); 
+            font-size: 20px; 
+            text-align: center;
+            border: 2px solid  rgb(248, 227, 105);
+            margin: 10px; 
+            padding: 5px; 
+            width: fit-content; 
+            margin-left: auto; 
+            margin-right: auto;
+            }
+
+
+
+.artists{
+    width: auto;
+    max-width: 100%;
+    height: 200px;
+    max-height: fit-content;
+    border: 5px solid rgb(248, 227, 105);
+    margin: 10px;
+    padding: 3px;
+    object-fit: contain;
+}
+
+h6 {color: rgb(248, 227, 105); 
+    font-size: 20px; 
+    text-align:center;}
+
+    .flower{max-width: 100%;
+        height: 300px;
+        max-height: fit-content;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;}
+
